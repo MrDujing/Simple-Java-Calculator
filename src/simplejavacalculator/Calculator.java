@@ -105,8 +105,7 @@ public class Calculator {
             }
             if (num % 90 == 0 && num % 180 != 0)
                 return NaN;
-            }
-
+            //} //Delete by bob, 20200212
             return Math.tan(num);
         }
         if (newMode == MonoOperatorModes.log) {
